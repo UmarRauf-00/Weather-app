@@ -1,9 +1,7 @@
 import React from 'react';
 
 
-class Titles extends React.Component {
-
-    render() {
+const Titles = (props) => {
         return (
             <div>
                 <h1>Weather finder</h1>
@@ -11,6 +9,5 @@ class Titles extends React.Component {
             </div>
         )
     }
-}
 
 export default Titles

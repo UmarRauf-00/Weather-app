@@ -1,6 +1,0 @@
-Hello everyone
-
-This is a project I created to fetch weather information using openWrather API : https://openweathermap.org/api
-
-How it works:
-User can add his/her city & country name and the applicaion will fetch certain weather information for that city.

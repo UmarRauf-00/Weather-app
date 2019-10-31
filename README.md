@@ -1,4 +1,4 @@
-#A simple weather app
+# A simple weather app
 
 **Goal for this app is to understand how an API works with react**
 

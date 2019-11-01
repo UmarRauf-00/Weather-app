@@ -2,7 +2,7 @@
 
 **Goal for this app is to understand how an API works with react**
 
-This is a project I created to fetch weather information using openWrather API : https://openweathermap.org/api
+This is a project I created to fetch weather information using openWeather API : https://openweathermap.org/api
 
 How it works:
 User can enter the city & country name and the applicaion will fetch weather information for that city.

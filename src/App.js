@@ -49,17 +49,23 @@ class App extends React.Component {
 
     render() {
         return (
-            <div>
-                <Titles />
-                <Form getWeather={this.getWeather}/>
-                <Weather
-                     temperature={this.state.temperature}
-                     city={this.state.city}
-                     country={this.state.country}
-                     humidity={this.state.humidity}
-                     description={this.state.description}
-                     error={this.state.error}                     
-                />
+            <div className="ui centered padded grid ">
+                <div classname="">
+                    <div className="">
+                        <Titles />
+                    </div>
+                    <div className="ui horizontal divider"></div>
+                    <Form getWeather={this.getWeather}/>
+                    <br></br>
+                    <Weather
+                        temperature={this.state.temperature}
+                        city={this.state.city}
+                        country={this.state.country}
+                        humidity={this.state.humidity}
+                        description={this.state.description}
+                        error={this.state.error}                     
+                    />
+                </div>
             </div>
         );
     }
